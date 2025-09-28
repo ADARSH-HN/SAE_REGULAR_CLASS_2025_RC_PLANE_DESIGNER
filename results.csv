@@ -1,0 +1,21 @@
+Parameter,Value
+Wing Area (S) mm²,720000.0
+MAC mm,400.0
+Root Chord mm,400.0
+Tip Chord mm,400.0
+Horizontal Tail Area SH mm²,136800.0
+Vertical Tail Area SV mm²,68400.0
+Horizontal Tail Root Chord mm,253.3
+Horizontal Tail Tip Chord mm,126.7
+Vertical Tail Root Chord mm,600.5
+Vertical Tail Tip Chord mm,300.2
+Fuselage Length mm,1215.0
+Fuselage Height mm,151.9
+Fuselage Width mm,30.4
+Lift L (N),92.61
+Drag D (N),18.08
+Stall Speed Vstall (m/s),16.34
+Static Margin,0.1
+Aerodynamic Center x_ac mm,100.0
+CG Position mm,120.0
+Neutral Point x_np mm,160.0
