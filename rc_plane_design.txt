@@ -1,0 +1,38 @@
+RC PLANE DESIGN REPORT
+==================================================
+
+--- WING ---
+Span (b)                      : 1600.000 mm
+Aspect Ratio (AR)             : 5.000 
+Wing Area (S)                 : 512000.000 mm²
+Wing Area (S)                 : 0.5120 m²
+MAC                           : 320.000 mm
+MAC                           : 0.320 m
+Root Chord (Cr)               : 320.000 mm
+Tip Chord (Ct)                : 320.000 mm
+
+--- EMPENNAGE ---
+Horizontal Stabilizer (HS):
+HS Area                       : 102400.000 mm²
+HS Span                       : 715.542 mm
+HS Root Chord                 : 178.885 mm
+HS Tip Chord                  : 107.331 mm
+Elevator Area                 : 51200.000 mm²
+
+Vertical Stabilizer (VS):
+VS Area                       : 51200.000 mm²
+VS Span                       : 320.000 mm
+VS Root Chord                 : 200.000 mm
+VS Tip Chord                  : 120.000 mm
+Rudder Area                   : 25600.000 mm²
+
+--- FUSELAGE ---
+Fuselage Length               : 1200.000 mm
+Fuselage Height               : 180.000 mm
+
+--- CG & Static Margin ---
+Neutral Point %MAC            : 25.000 %
+CG %MAC                       : 20.000 %
+Static Margin %MAC            : 5.000 %
+NP position (mm from MAC LE)  : 80.000 mm
+CG position (mm from MAC LE)  : 64.000 mm
