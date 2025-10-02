@@ -149,6 +149,18 @@ def cg_and_static_margin(MAC_mm):
         print("  NOTE: Static margin > 15% (very stable but potentially sluggish).")
     return {"NP_percent": NP_percent, "CG_percent": CG_percent, "SM_percent": SM, "NP_mm": (NP_percent/100.0)*MAC_mm, "CG_mm": (CG_percent/100.0)*MAC_mm}
 
+#-----------------Airfoil calculations ----------------
+def airfoil_input():
+    print("\n=== AIRFOIL DESIGN ===")
+    calculate = input("Enter yes if you want to do calculation related to Airfoil").lower()
+    if (calculate== "yes"):
+        print("Thank you for your input")
+    else:
+        print("Thank you for not your input")
+    print("Hello world")
+    return "hello worrld"
+
+
 # ---------------------- Exports ----------------------
 def export_text(data, filename="rc_plane_design.txt"):
     """Export RC plane design as a nicely formatted text report."""
@@ -288,6 +300,7 @@ def export_pdf(data, filename="rc_plane_design.pdf"):
 # ---------------------- Main ----------------------
 def main():
     print("RC Plane Designer — interactive\n(enter values in mm; follow prompts)")
+    airfoil = airfoil_input()
     wing = design_wing()
     emp = design_empennage(wing["wing_area"])
     fus = design_fuselage(wing["span"])
